@@ -1,8 +1,8 @@
-import Sidebar from '@/app/component/Sidebar';
+import Sidebar from '@/components/Sidebar';
 import React from 'react';
 
 const DashboardLayout = ({children,}:{
-    children: React.ReactNode
+    children: React.ReactNode,
   }) => {
     return (
         <div className='flex gap-4 min-h-screen'>

@@ -1,6 +1,6 @@
 
-import Footer from '@/app/component/Footer';
-import Navbar from '@/app/component/Navbar';
+import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
 import React from 'react';
 
 
