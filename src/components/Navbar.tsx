@@ -26,10 +26,10 @@ const NavLinks = [
 
 const Navbar = () => {
     return (
-      <nav className='flex text-center justify-between container mx-auto my-2 py-4 bg-slate-300 '>
+      <nav className='md:flex text-center justify-between container mx-auto my-2 py-4 bg-slate-300 '>
             
-      <h1 className='text-3xl ml-10 '>Edu Mentor</h1>
-      <ul className='flex mx-2 justify-center items-center text-center '>
+      <h1 className='text-3xl mx-10  border-b-2 rounded-3xl pb-2 mb-2 md:mb-0 md:pb-0 border-cyan-500 md:border-none '>Edu Mentor</h1>
+      <ul className='md:flex mx-2 justify-center items-center text-center '>
           {
               NavLinks.map(({path, title}) => (<li key={path}
                   className="mx-2"
