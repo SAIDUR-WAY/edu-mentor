@@ -1,6 +1,7 @@
+
 import { Metadata } from 'next';
 import React from 'react';
-export const metadata: Metadata = {
+export const metadata = {
     title: 'Mentor | Edu-Mentor',
     description: 'Connecting knowledge and home with our tutoring website',
   }

@@ -15,6 +15,7 @@ const  RootLayout = ({children,}:{
   return (
     <html lang="en">
       <body className={`${inter.className} container mx-auto`}>
+        <h1>hello</h1>
         {children}
       </body>
     </html>

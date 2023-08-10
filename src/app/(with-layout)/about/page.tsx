@@ -9,6 +9,7 @@ const AboutPage = () => {
     return (
         <div>
             <h3 className='text-3xl text-center h-96'>About</h3>
+            <p>Update from Shamiul</p>
         </div>
     );
 };
