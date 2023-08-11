@@ -3,7 +3,7 @@ import React from 'react';
 import Section2 from '../../components/Section2';
 import Section3 from '../../components/Section3';
 import { Metadata } from 'next';
-import Popular from '../../components/HomePage/Popular';
+// import Popular from '../../components/HomePage/Popular';
 
 
 export const metadata: Metadata = {
@@ -14,7 +14,8 @@ export const metadata: Metadata = {
 const HomePage = () => {
   return (
     <div>
-      <Popular></Popular>
+      <h1 className='text-center text-3xl font-bold'>Home Page</h1>
+      {/* <Popular></Popular> */}
       <Section2></Section2>
       <Section3></Section3>
     </div>
