@@ -19,7 +19,7 @@ console.log('test for button')
 }
 
 const PopularCard: React.FC<PopularCardProps> = ({data}) => {
-  console.log(data)
+  // console.log(data)
   const {name, email, id, image, subject} = data;
   
     return (
