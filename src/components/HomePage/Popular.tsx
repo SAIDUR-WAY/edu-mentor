@@ -9,7 +9,11 @@ interface Mentor {
     email: string;
     subject: string;
     image: string;
+    university: string;
+    location: string;   
   }
+
+
 
   
 
